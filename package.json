@@ -1,17 +1,23 @@
 {
-  "name": "task-testing-webservices",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "node --test",
-    "format": "prettier --write ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "prettier": "^3.9.6"
-  }
+    "name": "task-testing-webservices",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node --test",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "lint": "eslint ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.9.1",
+        "eslint-config-prettier": "^10.1.8",
+        "globals": "^17.12.0",
+        "prettier": "^3.9.6"
+    }
 }
